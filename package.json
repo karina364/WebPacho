@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
   "name": "primer-proyecto-angular",
-=======
-  "name": "webpacho",
->>>>>>> 02c60e5... initial commit
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -15,7 +11,6 @@
   },
   "private": true,
   "dependencies": {
-<<<<<<< HEAD
     "@angular/animations": "~11.0.4",
     "@angular/cdk": "^11.0.3",
     "@angular/common": "~11.0.4",
@@ -28,6 +23,7 @@
     "@angular/router": "~11.0.4",
     "@ng-bootstrap/ng-bootstrap": "^9.0.2",
     "@popperjs/core": "^2.6.0",
+    "@types/angular": "^1.8.0",
     "bootstrap": "^4.6.0",
     "jquery": "^3.5.1",
     "rxjs": "~6.6.0",
@@ -38,34 +34,12 @@
     "@angular-devkit/build-angular": "^0.1100.7",
     "@angular/cli": "~11.0.4",
     "@angular/compiler-cli": "~11.0.4",
-=======
-    "@angular/animations": "~11.1.0",
-    "@angular/common": "~11.1.0",
-    "@angular/compiler": "~11.1.0",
-    "@angular/core": "~11.1.0",
-    "@angular/forms": "~11.1.0",
-    "@angular/platform-browser": "~11.1.0",
-    "@angular/platform-browser-dynamic": "~11.1.0",
-    "@angular/router": "~11.1.0",
-    "rxjs": "~6.6.0",
-    "tslib": "^2.0.0",
-    "zone.js": "~0.11.3"
-  },
-  "devDependencies": {
-    "@angular-devkit/build-angular": "~0.1101.1",
-    "@angular/cli": "~11.1.1",
-    "@angular/compiler-cli": "~11.1.0",
->>>>>>> 02c60e5... initial commit
     "@types/jasmine": "~3.6.0",
     "@types/node": "^12.11.1",
     "codelyzer": "^6.0.0",
     "jasmine-core": "~3.6.0",
     "jasmine-spec-reporter": "~5.0.0",
-<<<<<<< HEAD
     "karma": "~5.1.0",
-=======
-    "karma": "~5.2.0",
->>>>>>> 02c60e5... initial commit
     "karma-chrome-launcher": "~3.1.0",
     "karma-coverage": "~2.0.3",
     "karma-jasmine": "~4.0.0",
@@ -73,10 +47,6 @@
     "protractor": "~7.0.0",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
-<<<<<<< HEAD
     "typescript": "~4.0.2"
-=======
-    "typescript": "~4.1.2"
->>>>>>> 02c60e5... initial commit
   }
 }

@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { PeticionesService } from '../../services/peticiones.service';
 
 @Component({
-  selector: 'app-basica',
-  templateUrl: './basica.component.html',
-  styleUrls: ['./basica.component.css']
+  selector: 'app-articulos-deportivos',
+  templateUrl: './articulos-deportivos.component.html',
+  styleUrls: ['./articulos-deportivos.component.css']
 })
-export class BasicaComponent implements OnInit {
+export class ArticulosDeportivosComponent implements OnInit {
   posts: any;
 
   constructor(
@@ -14,7 +14,7 @@ export class BasicaComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-    this.peticionesService.getPostsBasica() 
+    this.peticionesService.getPostsArticulosDeportivos()
     .subscribe((posts) => {
       this.posts = posts; 
     });

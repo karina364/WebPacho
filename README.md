@@ -1,12 +1,6 @@
-<<<<<<< HEAD
 # PrimerProyectoAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.4.
-=======
-# Webpacho
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.1.
->>>>>>> 02c60e5... initial commit
 
 ## Development server
 

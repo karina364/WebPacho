@@ -25,11 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-<<<<<<< HEAD
       dir: require('path').join(__dirname, './coverage/primer-proyecto-angular'),
-=======
-      dir: require('path').join(__dirname, './coverage/Webpacho'),
->>>>>>> 02c60e5... initial commit
       subdir: '.',
       reporters: [
         { type: 'html' },

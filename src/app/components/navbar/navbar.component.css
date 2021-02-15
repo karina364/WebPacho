@@ -39,6 +39,10 @@ header {
 
 
 
-#img {
-    display: none
+#onsubir {
+    display: block;
+}
+
+#offsubir {
+    display: none;
 }

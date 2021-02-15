@@ -6,9 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-<<<<<<< HEAD
   title = 'primer-proyecto-angular';
-=======
-  title = 'Webpacho';
->>>>>>> 02c60e5... initial commit
 }

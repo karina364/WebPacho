@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -17,6 +16,10 @@ import { MujerComponent } from './components/mujer/mujer.component';
 import {MatButtonModule} from '@angular/material/button';
 import {HttpClientModule} from '@angular/common/http';
 import {LoadScriptsService} from './load-scripts.service';
+import { ArticulosDeportivosComponent } from './components/articulos-deportivos/articulos-deportivos.component';
+import { ArticulosPersonalizadosComponent } from './components/articulos-personalizados/articulos-personalizados.component';
+import { BusosDamaComponent } from './components/busos-dama/busos-dama.component';
+import { CamisetasBasicasComponent } from './components/camisetas-basicas/camisetas-basicas.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +29,11 @@ import {LoadScriptsService} from './load-scripts.service';
     NavbarComponent,
     BasicaComponent,
     HombreComponent,
-    MujerComponent
+    MujerComponent,
+    ArticulosDeportivosComponent,
+    ArticulosPersonalizadosComponent,
+    BusosDamaComponent,
+    CamisetasBasicasComponent
   ],
   imports: [
     BrowserModule,
@@ -46,23 +53,3 @@ import {LoadScriptsService} from './load-scripts.service';
 })
 export class AppModule { }
 
-=======
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-
-@NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
-})
-export class AppModule { }
->>>>>>> 02c60e5... initial commit

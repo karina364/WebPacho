@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { PeticionesService } from '../../services/peticiones.service';
 
 @Component({
-  selector: 'app-basica',
-  templateUrl: './basica.component.html',
-  styleUrls: ['./basica.component.css']
+  selector: 'app-busos-dama',
+  templateUrl: './busos-dama.component.html',
+  styleUrls: ['./busos-dama.component.css']
 })
-export class BasicaComponent implements OnInit {
+export class BusosDamaComponent implements OnInit {
   posts: any;
 
   constructor(
@@ -14,7 +14,7 @@ export class BasicaComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-    this.peticionesService.getPostsBasica() 
+    this.peticionesService.getPostsBusos()
     .subscribe((posts) => {
       this.posts = posts; 
     });
